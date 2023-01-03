@@ -145,6 +145,9 @@ declare namespace Konva {
   export const Text: typeof import('./shapes/Text').Text;
   export type Text = import('./shapes/Text').Text;
   export type TextConfig = import('./shapes/Text').TextConfig;
+  export const CurvedText: typeof import('./shapes/CurvedText').CurvedText;
+  export type CurvedText = import('./shapes/CurvedText').CurvedText;
+  export type CurvedTextConfig = import('./shapes/CurvedText').CurvedTextConfig;
   export const TextPath: typeof import('./shapes/TextPath').TextPath;
   export type TextPath = import('./shapes/TextPath').TextPath;
   export type TextPathConfig = import('./shapes/TextPath').TextPathConfig;
